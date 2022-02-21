@@ -1,6 +1,8 @@
 .keyboard {
   display: grid;
   row-gap: 8px;
+  width: 100%;
+  margin-bottom: 8px;
 }
 
 .keyboardRow {
