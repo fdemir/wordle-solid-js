@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kaushan+Script&display=swap");
+
+:root {
+  --c-yellow: #b59f3b;
+  --c-grey: #3a3a3c;
+  --c-green: #538d4e;
+  --c-white: #fff;
+  --c-dark: #121213;
+
+  --v-header-height: 50px;
+  --v-font-family: "Inter", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--c-dark);
+  color: var(--c-white);
+  font-family: var(--v-font-family);
+}
