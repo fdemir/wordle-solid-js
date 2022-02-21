@@ -1,0 +1,18 @@
+.boardWrapper {
+  margin: 30px 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 62px);
+  gap: 6px;
+  padding: 10px;
+  grid-template-rows: repeat(6, 62px);
+}
+
+.board > div {
+  border: 2px solid var(--c-grey);
+}
