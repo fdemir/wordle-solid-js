@@ -1,0 +1,15 @@
+.keyboard {
+  display: grid;
+  row-gap: 8px;
+}
+
+.keyboardRow {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: column;
+  gap: 6px;
+}
+
+.keyboardRow:nth-child(2) {
+  padding: 0 20px;
+}

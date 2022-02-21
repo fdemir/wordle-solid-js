@@ -1,3 +1,5 @@
+import Backspace from "../../assets/icons/backspace_white_24dp.svg";
+
 export default [
   [
     { code: "KeyE", value: "E" },
@@ -35,6 +37,6 @@ export default [
     { code: "KeyM", value: "M" },
     { code: "Comma", value: "Ö" },
     { code: "Period", value: "Ç" },
-    { code: "Backspace", value: "BACKSPACE" },
+    { code: "Backspace", value: Backspace },
   ],
 ];

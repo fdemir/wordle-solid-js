@@ -1,18 +1,20 @@
 import { For, mergeProps } from "solid-js";
-import Keys from "./Keys";
+import Key from "./Key";
 
-function Key({ code, value }) {
-  return <div>{(code, value)}</div>;
-}
+import KeyList from "./KeyList";
+
+import styles from "./Keyboard.module.css";
 
 export default function Keyboard() {
   return (
-    <div>
-      <For each={Keys}>
+    <div className={styles.keyboard}>
+      <For each={KeyList}>
         {(row, index) => (
-          <For each={row}>
-            {({ code, value }) => <Key code={code} value={value} />}
-          </For>
+          <div className={styles.keyboardRow}>
+            <For each={row}>
+              {({ code, value }) => <Key code={code} value={value} />}
+            </For>
+          </div>
         )}
       </For>
     </div>

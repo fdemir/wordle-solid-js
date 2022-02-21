@@ -1,0 +1,13 @@
+.key {
+  border: 0;
+  background: var(--c-dark-grey);
+  color: #fff;
+  padding: 0;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
