@@ -18,6 +18,17 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background: var(--c-dark);
   color: var(--c-white);
